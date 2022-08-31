@@ -1,0 +1,16 @@
+**/.DS_Store
+*/*/.DS_Store
+**/cmake_install.cmake
+**/CMakeCache.txt
+**/Makefile
+**/CMakeFiles/
+.vscode/settings.json
+*/.DS_Store
+*/*/.DS_Store
+./MAX/perlin/CMakeFiles
+run
+CMakeFiles/
+.DS_Store
+Makefile
+CMakeCache.txt
+cmake_install.cmake
