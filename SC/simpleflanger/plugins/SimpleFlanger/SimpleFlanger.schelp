@@ -1,0 +1,26 @@
+class:: SimpleFlanger
+summary:: simple flanger test
+related:: DelayN
+categories:: UGens>Filter
+
+description::
+
+simple flanger test
+
+
+classmethods::
+
+method::ar, kr
+
+argument::TODO
+
+argument::TODO
+
+
+examples::
+
+code::
+
+{ SimpleFlanger.ar(/* TODO */) }.play
+
+::
