@@ -13,6 +13,7 @@ SynthDef.new(\mtest2, {
 	Out.ar(0, sig * EnvGen.kr(Env.adsr(), \gate.kr(1), doneAction: 2));
 }).add;
 )
+a.free
 
 b = Synth(\mtest2)
 b.free;
@@ -49,7 +50,7 @@ b.free;
 ~octaveOffset = 0;
 ~noteName = "";
 ~noteOnList = ();
-~synthName = \filmPan;
+~synthName = \mtest2;
 ~nodes = ();
 ~isOn = (
 	'a':False,

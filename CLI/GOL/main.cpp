@@ -69,10 +69,7 @@ void init() {
 
 
 void generate() {
-
     // current부터 display 할 것
-    display(current_);
-
     for (size_t y = 1; y < HEIGHT - 1; y++) {
         for (size_t x = 1; x < WIDTH - 1; x++) {
             size_t neighborsLife = 
@@ -95,12 +92,15 @@ void generate() {
         }
     }
 
+    current_ = next_;
+
     // current_를 다음번의 next로 만드는 것은 generate가 모두 끝난 후에 할 것
-    for (size_t y = 1; y < HEIGHT - 1; y++) {
-        for (size_t x = 1; x < WIDTH - 1; x++) {
-            current_[y][x] = next_[y][x];
-        }
-    }
+    // for (size_t y = 1; y < HEIGHT - 1; y++) {
+    //     for (size_t x = 1; x < WIDTH - 1; x++) {
+    //         current_[y][x] = next_[y][x];
+    //     }
+    // }
+
 }
 
 
@@ -127,6 +127,7 @@ int main(int argc, const char * argv[]) {
         numFrames = atoi(argv[1]);
         size_t i = numFrames;
         while(i > 0) {
+            display(current_);
             system("clear");
             generate();
             --i;
@@ -137,6 +138,7 @@ int main(int argc, const char * argv[]) {
     } else if (argc == 1) {
         while(true) {
             system("clear");
+            display(current_);
             generate();
             cout << "frame: " << frameCount++ << endl;
             cout << "\'Ctrl + c\' to Stop" << endl; 

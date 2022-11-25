@@ -71,6 +71,9 @@ void getcoef(struct polar coef[], struct polar root[], int Nroots) {
     coef[0].mag = 1.;
 
     for (i = 1; i <= Nroots; i++) {
+        // 전달 함수에 zero/pole 값을 적용한다는 것은 해당 다항식의 계산 결과가 0이 된다는 의미
+        // 0 = X(A1 + X(A2 + X(A3 + X(Q4 + X(...X(An-1 + XAn))))
+        // 예를 들면 A1 =  - 1 * X(A2 + X(A3 + X(Q4 + X(...X(An-1 + XAn)));
         coef[i] = cnegmult(root[i], coef[i - 1]);
         for (j = i - 1; j >= 1; j--) {
             coef[j] = cadd(coef[j], cnegmult(root[i], coef[j - 1]));
