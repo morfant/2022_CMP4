@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+ZERO_CHECK in PerlinNoise, no dependencies
+PerlinNoise_scsynth in PerlinNoise, depends on:
+ZERO_CHECK in PerlinNoise (explicit)
+PerlinNoise_supernova in PerlinNoise, depends on:
+ZERO_CHECK in PerlinNoise (explicit)
+ALL_BUILD in PerlinNoise, depends on:
+PerlinNoise_scsynth in PerlinNoise (explicit)
+PerlinNoise_supernova in PerlinNoise (explicit)
+ZERO_CHECK in PerlinNoise (explicit)

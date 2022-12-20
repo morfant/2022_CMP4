@@ -1,0 +1,1131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		42B28D9058C346AE8DF0859F /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E610BC749A3C41A68FAAB726 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A5DF60E9D4C449F787298516 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		60A9EC39E56442F6A00B0467 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0023ED859666425B8DEC7E6C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				417C564CE9D475CEC341C0CA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				2D9F4F45F2CD4462A495C65D /* PBXTargetDependency */,
+				918AB99AD5AA4D07A7E3B5F4 /* PBXTargetDependency */,
+				A085BF98B5CE48D69C6CFF82 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EC1DB32C193649EC8016A6C1 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 873F1710D2734E6DA7FEAAAF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				89EFE669A746A7A62E225CC4 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		047E65F44AD74B6589F9D664 /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 047FBB96C85F4729A805D621 /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */; };
+		2D5781460BB54961ADE18D1E /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */ = {isa = PBXBuildFile; fileRef = 302D9474969445F88601C7D0 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */; };
+		37E994AE75BD4DB5B85FBEE2 /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 301BC1DB7D404B50BE895278 /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */; };
+		41813D348C0342F6828644F5 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.hpp */ = {isa = PBXBuildFile; fileRef = 74DEDA175EB9471E9B86A0B0 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.hpp */; };
+		6818F926D22545ECBAE509A7 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */ = {isa = PBXBuildFile; fileRef = 9579903392A64CE582648503 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */; };
+		8729B7BD36B945559A198C47 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.hpp */ = {isa = PBXBuildFile; fileRef = BA421E8B0B7243E6B71AF611 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		261C3FDBB8554E12BC9DD649 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		285917F9B2704AAC93C291B2 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		3D4BF0189CA041929D9FAF29 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		7758807D533F4306B86A0F98 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7EC01DA1E5A94006AD815895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27792774E1D14BF0917459B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1DB32C193649EC8016A6C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		A279FD1AE12A4E49A689B15C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27792774E1D14BF0917459B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46EDB491059A4296BEF54B79;
+			remoteInfo = PerlinNoise_scsynth;
+		};
+		A9952FACECD0470794EADFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27792774E1D14BF0917459B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4445D8624884E569F0AAA8C;
+			remoteInfo = PerlinNoise_supernova;
+		};
+		C8A700CB8DB743C6AF964276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27792774E1D14BF0917459B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60A9EC39E56442F6A00B0467;
+			remoteInfo = ALL_BUILD;
+		};
+		F00E949AC3884172A1EDB979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27792774E1D14BF0917459B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1DB32C193649EC8016A6C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		F19EB22C486E424DB548F461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27792774E1D14BF0917459B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1DB32C193649EC8016A6C1;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047FBB96C85F4729A805D621 /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		301BC1DB7D404B50BE895278 /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		302D9474969445F88601C7D0 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PerlinNoise.cpp; path = plugins/PerlinNoise/PerlinNoise.cpp; sourceTree = SOURCE_ROOT; };
+		74DEDA175EB9471E9B86A0B0 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PerlinNoise.hpp; path = plugins/PerlinNoise/PerlinNoise.hpp; sourceTree = SOURCE_ROOT; };
+		9579903392A64CE582648503 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PerlinNoise.cpp; path = plugins/PerlinNoise/PerlinNoise.cpp; sourceTree = SOURCE_ROOT; };
+		B54BC9028155446881107118 /* PerlinNoise_supernova */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = PerlinNoise_supernova.scx; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA421E8B0B7243E6B71AF611 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PerlinNoise.hpp; path = plugins/PerlinNoise/PerlinNoise.hpp; sourceTree = SOURCE_ROOT; };
+		CC05AF5B776B4A36BFAFA358 /* PerlinNoise_scsynth */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = PerlinNoise_scsynth.scx; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79C9A0962464A099F69351B /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BE82C5DD1D4C678F1DF47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFE5F26DE2B4A0BBFA6ACFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E0715246AD40DBAF511CD3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA421E8B0B7243E6B71AF611 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2E325C3BA0A547969922EC29 = {
+			isa = PBXGroup;
+			children = (
+				38C7980D5D0E426FA75C2AAA /* PerlinNoise_scsynth */,
+				8061B7FD02604C67ACCF082A /* PerlinNoise_supernova */,
+				37D7728F23CE4DE0A0DCDA3B /* ALL_BUILD */,
+				8298658A2FF9400C8C72C723 /* Products */,
+				5220BD49F2AA436DA2F4096A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3686E97C397F48A38BC29801 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		37D7728F23CE4DE0A0DCDA3B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3686E97C397F48A38BC29801 /* CMake Rules */,
+				D79C9A0962464A099F69351B /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		38C7980D5D0E426FA75C2AAA /* PerlinNoise_scsynth */ = {
+			isa = PBXGroup;
+			children = (
+				9B9CEDC99F3E41DDA40FCC2B /* Source Files */,
+				6DD3B588368740F58B6DB512 /* Header Files */,
+				301BC1DB7D404B50BE895278 /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */,
+			);
+			name = PerlinNoise_scsynth;
+			sourceTree = "<group>";
+		};
+		4E4620F0988643EABBCC622A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				302D9474969445F88601C7D0 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5220BD49F2AA436DA2F4096A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DD3B588368740F58B6DB512 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				74DEDA175EB9471E9B86A0B0 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8061B7FD02604C67ACCF082A /* PerlinNoise_supernova */ = {
+			isa = PBXGroup;
+			children = (
+				4E4620F0988643EABBCC622A /* Source Files */,
+				23E0715246AD40DBAF511CD3 /* Header Files */,
+				047FBB96C85F4729A805D621 /* /Users/giy/MTK/CMP4/SC/perlinnoise/CMakeLists.txt */,
+			);
+			name = PerlinNoise_supernova;
+			sourceTree = "<group>";
+		};
+		8298658A2FF9400C8C72C723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC05AF5B776B4A36BFAFA358 /* PerlinNoise_scsynth */,
+				B54BC9028155446881107118 /* PerlinNoise_supernova */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B9CEDC99F3E41DDA40FCC2B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9579903392A64CE582648503 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46EDB491059A4296BEF54B79 /* PerlinNoise_scsynth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AD3F5E6B30420D97C0EE4F /* Build configuration list for PBXNativeTarget "PerlinNoise_scsynth" */;
+			buildPhases = (
+				52D1CECE55FB4548ACAF226F /* Sources */,
+				32BE82C5DD1D4C678F1DF47B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				055B0B0B90DA45A790A748BA /* PBXTargetDependency */,
+			);
+			name = PerlinNoise_scsynth;
+			productName = PerlinNoise_scsynth;
+			productReference = CC05AF5B776B4A36BFAFA358 /* PerlinNoise_scsynth */;
+			productType = "com.apple.product-type.tool";
+		};
+		C4445D8624884E569F0AAA8C /* PerlinNoise_supernova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F7B3C90AA745C986E39872 /* Build configuration list for PBXNativeTarget "PerlinNoise_supernova" */;
+			buildPhases = (
+				A1E0EBC1CF9349CFA3E137C8 /* Sources */,
+				DBFE5F26DE2B4A0BBFA6ACFF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87929A0A8E74065B4F6CDDD /* PBXTargetDependency */,
+			);
+			name = PerlinNoise_supernova;
+			productName = PerlinNoise_supernova;
+			productReference = B54BC9028155446881107118 /* PerlinNoise_supernova */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27792774E1D14BF0917459B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 57333D7EA1D1488D813A9E28 /* Build configuration list for PBXProject "PerlinNoise" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				261C3FDBB8554E12BC9DD649 /* Debug */,
+				7758807D533F4306B86A0F98 /* Release */,
+				285917F9B2704AAC93C291B2 /* MinSizeRel */,
+				3D4BF0189CA041929D9FAF29 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2E325C3BA0A547969922EC29;
+			projectDirPath = /Users/giy/MTK/CMP4/SC/perlinnoise;
+			projectRoot = "";
+			targets = (
+				60A9EC39E56442F6A00B0467 /* ALL_BUILD */,
+				46EDB491059A4296BEF54B79 /* PerlinNoise_scsynth */,
+				C4445D8624884E569F0AAA8C /* PerlinNoise_supernova */,
+				EC1DB32C193649EC8016A6C1 /* ZERO_CHECK */,
+				42B28D9058C346AE8DF0859F /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		417C564CE9D475CEC341C0CA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/giy/MTK/CMP4/SC/perlinnoise/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		89EFE669A746A7A62E225CC4 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/giy/MTK/CMP4/SC/perlinnoise/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  make -f /Users/giy/MTK/CMP4/SC/perlinnoise/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  make -f /Users/giy/MTK/CMP4/SC/perlinnoise/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  make -f /Users/giy/MTK/CMP4/SC/perlinnoise/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  make -f /Users/giy/MTK/CMP4/SC/perlinnoise/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  /opt/homebrew/Cellar/cmake/3.24.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  /opt/homebrew/Cellar/cmake/3.24.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  /opt/homebrew/Cellar/cmake/3.24.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/giy/MTK/CMP4/SC/perlinnoise/build
+  /opt/homebrew/Cellar/cmake/3.24.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D1CECE55FB4548ACAF226F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6818F926D22545ECBAE509A7 /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E0EBC1CF9349CFA3E137C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5781460BB54961ADE18D1E /* /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		055B0B0B90DA45A790A748BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1DB32C193649EC8016A6C1 /* ZERO_CHECK */;
+			targetProxy = 7EC01DA1E5A94006AD815895 /* PBXContainerItemProxy */;
+		};
+		2D9F4F45F2CD4462A495C65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46EDB491059A4296BEF54B79 /* PerlinNoise_scsynth */;
+			targetProxy = A279FD1AE12A4E49A689B15C /* PBXContainerItemProxy */;
+		};
+		918AB99AD5AA4D07A7E3B5F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4445D8624884E569F0AAA8C /* PerlinNoise_supernova */;
+			targetProxy = A9952FACECD0470794EADFC0 /* PBXContainerItemProxy */;
+		};
+		A085BF98B5CE48D69C6CFF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1DB32C193649EC8016A6C1 /* ZERO_CHECK */;
+			targetProxy = F19EB22C486E424DB548F461 /* PBXContainerItemProxy */;
+		};
+		A5DF60E9D4C449F787298516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60A9EC39E56442F6A00B0467 /* ALL_BUILD */;
+			targetProxy = C8A700CB8DB743C6AF964276 /* PBXContainerItemProxy */;
+		};
+		E87929A0A8E74065B4F6CDDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1DB32C193649EC8016A6C1 /* ZERO_CHECK */;
+			targetProxy = F00E949AC3884172A1EDB979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC3C978B3E847BAB8166685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		187FE33935FD46C2BF225E74 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2B002E40A80A4F35BC1F66DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3591392F642C4F27B5973B30 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .scx;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PerlinNoise_scsynth_EXPORTS,NOVA_SIMD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/giy/supercollider/external_libraries/nova-simd",/Users/giy/supercollider/include/plugin_interface,/Users/giy/supercollider/include/common,/Users/giy/supercollider/common,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PerlinNoise_scsynth;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		36D2BCB6AD5C4032B141D5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .scx;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PerlinNoise_scsynth_EXPORTS,NOVA_SIMD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/giy/supercollider/external_libraries/nova-simd",/Users/giy/supercollider/include/plugin_interface,/Users/giy/supercollider/include/common,/Users/giy/supercollider/common,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PerlinNoise_scsynth;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		380750F2C83A414E918B0C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .scx;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PerlinNoise_supernova_EXPORTS,SUPERNOVA,NOVA_SIMD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/giy/supercollider/external_libraries/nova-simd",/Users/giy/supercollider/include/plugin_interface,/Users/giy/supercollider/include/common,/Users/giy/supercollider/common,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=hidden '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PerlinNoise_supernova;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3C259D9C9BB3441682C87B02 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .scx;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PerlinNoise_supernova_EXPORTS,SUPERNOVA,NOVA_SIMD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/giy/supercollider/external_libraries/nova-simd",/Users/giy/supercollider/include/plugin_interface,/Users/giy/supercollider/include/common,/Users/giy/supercollider/common,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC -fvisibility=hidden '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PerlinNoise_supernova;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		55F2904C35654B8DB0372830 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .scx;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PerlinNoise_supernova_EXPORTS,SUPERNOVA,NOVA_SIMD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/giy/supercollider/external_libraries/nova-simd",/Users/giy/supercollider/include/plugin_interface,/Users/giy/supercollider/include/common,/Users/giy/supercollider/common,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PerlinNoise_supernova;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6520728E20654AA6A3D7CA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		792D1577325B4B4CA25383D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		87F7EE8CE0B444569C9FB880 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .scx;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PerlinNoise_scsynth_EXPORTS,NOVA_SIMD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/giy/supercollider/external_libraries/nova-simd",/Users/giy/supercollider/include/plugin_interface,/Users/giy/supercollider/include/common,/Users/giy/supercollider/common,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC -fvisibility=hidden '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PerlinNoise_scsynth;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9AD556E9058547D28146474A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build/build;
+			};
+			name = Release;
+		};
+		9C31F270612C4CF2B5D7E195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9E01B4FAE2124D99BBF8F5EF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build/build;
+			};
+			name = MinSizeRel;
+		};
+		9FC4B9D1610449CAB70F57C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AAD56FD10DA0424487A84EC5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ABCB1F95AD57419AAC98F98E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AFD055CA3CA94A45A17B8F6D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BD36F29846CF4BA0B5851938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build/build;
+			};
+			name = Debug;
+		};
+		C9D472B0938341BCAB814131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .scx;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PerlinNoise_scsynth_EXPORTS,NOVA_SIMD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/giy/supercollider/external_libraries/nova-simd",/Users/giy/supercollider/include/plugin_interface,/Users/giy/supercollider/include/common,/Users/giy/supercollider/common,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=hidden '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PerlinNoise_scsynth;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D2CF39CFF6A644F894A0B181 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D9FFE848E24F45D2BBC1687C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DF88E73AFAD6440A890DE011 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F8FB4E2FE49341B793BA7AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .scx;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PerlinNoise_supernova_EXPORTS,SUPERNOVA,NOVA_SIMD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/giy/supercollider/external_libraries/nova-simd",/Users/giy/supercollider/include/plugin_interface,/Users/giy/supercollider/include/common,/Users/giy/supercollider/common,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = BUNDLE;
+				MACH_O_TYPE = mh_bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PerlinNoise_supernova;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/giy/MTK/CMP4/SC/perlinnoise/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0023ED859666425B8DEC7E6C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C31F270612C4CF2B5D7E195 /* Debug */,
+				9FC4B9D1610449CAB70F57C8 /* Release */,
+				D9FFE848E24F45D2BBC1687C /* MinSizeRel */,
+				AAD56FD10DA0424487A84EC5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24AD3F5E6B30420D97C0EE4F /* Build configuration list for PBXNativeTarget "PerlinNoise_scsynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D472B0938341BCAB814131 /* Debug */,
+				36D2BCB6AD5C4032B141D5FC /* Release */,
+				3591392F642C4F27B5973B30 /* MinSizeRel */,
+				87F7EE8CE0B444569C9FB880 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53F7B3C90AA745C986E39872 /* Build configuration list for PBXNativeTarget "PerlinNoise_supernova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380750F2C83A414E918B0C57 /* Debug */,
+				F8FB4E2FE49341B793BA7AF7 /* Release */,
+				55F2904C35654B8DB0372830 /* MinSizeRel */,
+				3C259D9C9BB3441682C87B02 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57333D7EA1D1488D813A9E28 /* Build configuration list for PBXProject "PerlinNoise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD36F29846CF4BA0B5851938 /* Debug */,
+				9AD556E9058547D28146474A /* Release */,
+				9E01B4FAE2124D99BBF8F5EF /* MinSizeRel */,
+				DF88E73AFAD6440A890DE011 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		873F1710D2734E6DA7FEAAAF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC3C978B3E847BAB8166685 /* Debug */,
+				6520728E20654AA6A3D7CA6C /* Release */,
+				D2CF39CFF6A644F894A0B181 /* MinSizeRel */,
+				187FE33935FD46C2BF225E74 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E610BC749A3C41A68FAAB726 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792D1577325B4B4CA25383D0 /* Debug */,
+				2B002E40A80A4F35BC1F66DF /* Release */,
+				ABCB1F95AD57419AAC98F98E /* MinSizeRel */,
+				AFD055CA3CA94A45A17B8F6D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27792774E1D14BF0917459B7 /* Project object */;
+}

@@ -1,0 +1,1 @@
+python /Users/giy/supercollider/tools/cmake_gen/generate_server_plugin_cmake.py -P "PerlinNoise" -p "plugins/PerlinNoise" -a "giy"

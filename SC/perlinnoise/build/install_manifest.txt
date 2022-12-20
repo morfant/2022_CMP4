@@ -1,0 +1,4 @@
+/Users/giy/Library/Application Support/SuperCollider/Extensions/PerlinNoise/PerlinNoise_scsynth.scx
+/Users/giy/Library/Application Support/SuperCollider/Extensions/PerlinNoise/PerlinNoise_supernova.scx
+/Users/giy/Library/Application Support/SuperCollider/Extensions/PerlinNoise/Classes/PerlinNoise.sc
+/Users/giy/Library/Application Support/SuperCollider/Extensions/PerlinNoise/HelpSource/Classes/PerlinNoise.schelp

@@ -1,0 +1,71 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "3995e7cbd7864ca7d6ef1b8fe8ac10973cd4a43b46559b4c4f4656dcb03a56d2"
+    },
+    {
+      "guid" : "3995e7cbd7864ca7d6ef1b8fe8ac10978ff3cdbf26bdae733abc293b310aa416"
+    },
+    {
+      "guid" : "3995e7cbd7864ca7d6ef1b8fe8ac109742a78cb576f477b6ec52edb4ed462233"
+    },
+    {
+      "guid" : "3995e7cbd7864ca7d6ef1b8fe8ac10976d285b44f46916692ffeba4cde274654"
+    },
+    {
+      "guid" : "3995e7cbd7864ca7d6ef1b8fe8ac1097e03809d2e29e91e446452a0fd6b439ac"
+    }
+  ],
+  "containerPath" : "/Users/giy/MTK/CMP4/SC/perlinnoise/build/PerlinNoise.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/giy/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/giy/Library/Developer/Xcode/DerivedData/PerlinNoise-faxghummyfkykdfqcwpsqyncynjk/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/giy/Library/Developer/Xcode/DerivedData/PerlinNoise-faxghummyfkykdfqcwpsqyncynjk/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.cpp \
+  /Users/giy/MTK/CMP4/SC/perlinnoise/plugins/PerlinNoise/PerlinNoise.hpp \
+  /Users/giy/supercollider/include/plugin_interface/SC_PlugIn.hpp \
+  /Users/giy/supercollider/include/plugin_interface/SC_PlugIn.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_World.h \
+  /Users/giy/supercollider/include/common/SC_Types.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_Rate.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_SndBuf.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_RGen.h \
+  /Users/giy/supercollider/include/common/SC_Endian.h \
+  /Users/giy/supercollider/include/common/SC_BoundsMacros.h \
+  /Users/giy/supercollider/include/plugin_interface/Hash.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_Graph.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_Node.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_Unit.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_Wire.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_InterfaceTable.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_BufGen.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_FifoMsg.h \
+  /Users/giy/supercollider/include/common/SC_fftlib.h \
+  /Users/giy/supercollider/include/common/SC_Export.h \
+  /Users/giy/supercollider/include/plugin_interface/Unroll.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_InlineUnaryOp.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_Constants.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_InlineBinaryOp.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_DemandUnit.h \
+  /Users/giy/supercollider/include/common/clz.h \
+  /Users/giy/supercollider/include/plugin_interface/sc_msg_iter.h \
+  /Users/giy/supercollider/include/common/SC_Alloca.h \
+  /Users/giy/supercollider/include/common/function_attributes.h \
+  /Users/giy/supercollider/include/plugin_interface/FFT_UGens.h \
+  /Users/giy/supercollider/include/plugin_interface/SCComplex.h \
+  /Users/giy/supercollider/include/plugin_interface/SC_Complex.h
